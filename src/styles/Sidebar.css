@@ -1,0 +1,38 @@
+/* src/styles/Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    /* Alinhado com a altura da navbar */
+    left: 0;
+    height: calc(100% - 60px);
+    /* Preenche o restante da altura da tela */
+    width: 200px;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #3e3e3e;
+}
